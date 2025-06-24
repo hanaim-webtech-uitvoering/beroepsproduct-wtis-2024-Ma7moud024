@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    height: 100vh;
+  }
+  
+  /* Header stijlen */
+  header {
+    background-image: url(images.jpg);
+    background-size: 30%;
+    background-position: center;
+    padding: 80px;
+  }
+  
+  /* Main stijlen */
+  main {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    background-image: url(achterggrond\ main.jpg);
+    background-size: 10%;
+    background-position: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Gegevens {
+    display: flex;
+    justify-content: center;
+  }
+
+main section form input[type="submit"] {
+    width: 300px;
+    margin-left: 40px;
+    background-color: gold;
+}
+
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }

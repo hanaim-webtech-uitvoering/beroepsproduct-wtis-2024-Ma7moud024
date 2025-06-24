@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, Main, Footer */
+    grid-template-columns: 1fr;       /* Eén kolom */
+    height: 100vh;                    /* Hele schermhoogte */
+  }
+
+  header {
+    background-image: url(images.jpg);
+    background-size: 30%;
+background-position: center;
+    padding: 80px;
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 2fr ; /* Header, Main, Footer */
+    grid-template-columns: 1fr;       /* Eén kolom */
+    height: 100%;
+    background-image: url(achterggrond\ main.jpg);
+    background-size: 10%;
+background-position: center;
+  }
+
+  main section div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #333; /* Donkergrijs */
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }

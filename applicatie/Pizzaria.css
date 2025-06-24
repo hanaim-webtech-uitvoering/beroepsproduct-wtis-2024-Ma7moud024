@@ -1,0 +1,98 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, Main, Footer */
+    grid-template-columns: 1fr;       /* Eén kolom */
+    height: 100vh;                    /* Hele schermhoogte */
+  }
+  
+  /* Header stijlen */
+  header {
+    background-image: url(images.jpg);
+    background-size: 30%;
+background-position: center;
+    padding: 80px;
+  }
+  
+  /* Main stijlen */
+  main {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, Main, Footer */
+    grid-template-columns: 1fr;       /* Eén kolom */
+    height: 100vh;   
+    background-image: url(achterggrond\ main.jpg);
+    background-size: 10%;
+background-position: center;
+  }
+  main h1{ 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+    main form div {
+
+      margin: 20px;
+      text-align: center;
+      font-weight: 800;
+      font-family: Arial, Helvetica, sans-serif;
+      position: relative;
+      left: -50px; 
+      top: 80px; 
+    }
+    main form input[type=email] {
+      width: 400px;
+      position: relative;
+      left: -60px; 
+      top: 30px; 
+    }
+    main form input[type=password] {
+      width: 400px;
+      position: relative;
+      left: -60px; 
+      top: 30px; 
+    }
+
+
+    main form input[type=submit][value="Inloggen"]{
+      background-color: rgb(255, 213, 0);
+      font-weight: 800;
+width: 200px;
+border-radius: 5%;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      position: relative;
+      margin: 300px auto;
+      display: block;
+    }
+
+    main form input[type=submit][value="Registreren"]{
+      background-color: rgb(255, 213, 0);
+      font-weight: 800;
+width: 200px;
+border-radius: 5%;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      position: relative;
+      margin: -200px auto;
+      display: block;
+    }
+
+    main section p {
+      font-weight: 1000;
+      display:grid;
+      justify-content: center;
+      margin-top: -300px;
+    }
+
+  
+  /* Footer stijlen */
+  footer {
+    background-color: #333; /* Donkergrijs */
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
