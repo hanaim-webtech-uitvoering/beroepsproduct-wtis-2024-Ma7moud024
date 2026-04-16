@@ -1,0 +1,148 @@
+/* Algemene instellingen */
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-image: url(../Afbeeldingen/images.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Animatie voor titel en ondertitel */
+h1, p {
+  animation: kleurVerandering 5s infinite;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3em;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+/* Gebruikersinfo rechtsboven */
+.user-info {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.95rem;
+}
+
+/* Navigatiebalk */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+nav form input[type="submit"] {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Afbeelding in navigatie */
+.foto-met-caption img {
+  width: 60px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Main */
+main {
+  background-image: url(../Afbeeldingen/achterggrondmain.jpg);
+  background-size: 10%;
+  background-position: center;
+  padding: 20px;
+}
+
+/* Productenoverzicht */
+main section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  flex: 1 1 calc(33.333% - 20px);
+  border: 3px solid #444;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.product .naam {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.product .prijs, .product .type, .product .ingredienten {
+  margin-bottom: 10px;
+}
+
+.product form input[type="submit"] {
+  padding: 8px 12px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product form input[type="submit"]:hover {
+  background-color: #1e7e34;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Kleurenanimatie */
+@keyframes kleurVerandering {
+  0% { color: red; }
+  25% { color: orange; }
+  50% { color: yellow; }
+  75% { color: green; }
+  100% { color: blue; }
+}
+
