@@ -4,20 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/privacyveklaring.css" />
+    <link rel="stylesheet" href="../CSS/privacyverklaring.css" />
     <title>Privacy Verklaring - Mahmoud Pizzaria</title>
 </head>
 
 <body>
     <header>
-        <h1>Privacy Verklaring</h1>
+        <nav>
+            <a href="hoofdpagina.php">Home</a>
+        </nav>
     </header>
 
     <main>
-        <p><strong>Laatst bijgewerkt:</strong> 29-11-2024</p>
-        
+        <h1>Privacy Verklaring</h1>
+        <p><strong>Laatst bijgewerkt:</strong> 01-01-2026</p>
+
         <p>Bij <strong>Mahmoud Pizzaria</strong> nemen we de privacy van onze klanten en gebruikers zeer serieus. In deze privacyverklaring leggen we uit hoe we jouw persoonlijke gegevens verzamelen, gebruiken, bewaren en beschermen wanneer je onze website bezoekt of gebruikt.</p>
-        
+
         <h2>1. Verzamelde Gegevens</h2>
         <p>Wij verzamelen de volgende soorten persoonlijke gegevens:</p>
         <ul>
@@ -46,7 +49,7 @@
         <p>We hebben passende technische en organisatorische maatregelen genomen om je gegevens te beschermen tegen verlies, misbruik of ongeautoriseerde toegang. Helaas kan geen enkele methode van gegevensoverdracht via het internet 100% veilig zijn, maar we doen ons best om je gegevens zo goed mogelijk te beschermen.</p>
 
         <h2>6. Je Rechten</h2>
-        <p>Je hebt het recht om toegang te vragen tot je persoonlijke gegevens, deze te corrigeren of te verwijderen. Als je vragen hebt over de gegevens die we van je verzamelen, of als je een verzoek wilt indienen, neem dan contact met ons op via <strong>[e-mailadres]</strong>.</p>
+        <p>Je hebt het recht om toegang te vragen tot je persoonlijke gegevens, deze te corrigeren of te verwijderen. Als je vragen hebt over de gegevens die we van je verzamelen, of als je een verzoek wilt indienen, neem dan contact met ons op via <strong>auy@gmail.com</strong>.</p>
 
         <h2>7. Wijzigingen in deze Privacyverklaring</h2>
         <p>We behouden ons het recht voor om deze privacyverklaring op elk moment te wijzigen. Wijzigingen zullen op deze pagina worden gepubliceerd met de bijgewerkte datum. Het is belangrijk om regelmatig deze verklaring te raadplegen om op de hoogte te blijven van hoe wij jouw gegevens beschermen.</p>
